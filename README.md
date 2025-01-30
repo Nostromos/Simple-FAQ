@@ -1,30 +1,47 @@
-# Simple FAQ Page
+<h1 align="center">Simple FAQ Page</h1>
 
-## Description & API
-Create a simple FAQ page to test HTML and CSS syntax and improve your web development skills. Get started with HTML by working with text, links, and lists.
-You are required to create a simple FAQ page to test HTML and CSS syntax with provided design.
+<div align="center">
+   Solution for the <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> challenge from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+</div>
 
-## Goals
-The goals of this project are to help you:
+<div align="center">
+  <h3>
+    <a href="{https://your-demo-link.your-domain}">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="/Solution/">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/simple-faq-challenge">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-- Understand the basics of HTML and CSS syntax
-- Learn how to structure and style a web page using HTML and CSS
-- Practice creating and formatting text content
-- Practice creating and styling headings, paragraphs, and lists
-- Practice creating and styling links
-- Practice creating and styling a simple FAQ layout
+<!-- TABLE OF CONTENTS -->
 
-## Requirements
-You should create a web page that displays frequently asked questions and their corresponding answers. The page should have the following features:
+## Table of Contents
+  - [Instructions](/Project/INSTRUCTIONS.md)
+  - [Project Docs](/Project/)
+  - [Progress](#progress)
+<!-- OVERVIEW -->
 
-- A heading that describes the purpose of the page (e.g., "Frequently Asked Questions")
-- A list of questions, each followed by its corresponding answer
-- The links should be clickable and navigatable with the tab key
-- The layout should be clean and visually appealing, with appropriate spacing and typography
+## Overview
 
-## Tech Stack
+![screenshot](./Solution/images/Screenshot%20-%20Desktop.png)
 
-For this project, it is recommended to use only HTML and CSS to create the web page. You can use any text editor or integrated development environment (IDE) to write your code. There are no specific requirements for the choice of HTML and CSS frameworks or libraries. It is recommended to use vanilla HTML and CSS for this project, but you can also choose to use popular frameworks like Tailwind CSS if you prefer.
+### What I learned
+I've become too accustomed to Tailwind and more backend focused projects. This was a good refresher on Semantic HTML and CSS basics, especially @media queries. 
+
+### Useful resources
+- [MDN Web Docs](https://developer.mozilla.org/) continually prove to be incredibly valuable, whether its HTML, CSS, or (most often) Javascript.
+
+### Built with
+
+- Semantic HTML5
+- CSS
 
 # Progress
 ## User Stories
@@ -43,3 +60,8 @@ For this project, it is recommended to use only HTML and CSS to create the web p
 ## Remaining Fixes & Bugs
 - [ ] Transition between `max-width: 640px;` and any screen width larger is very jumpy. Needs to be smoother. 
 - [ ] Rewrite spacing logic to better resemble the original design doc.
+
+## Author
+- Michael Monaghan
+- Website [what.lol](https://what.lol)
+- GitHub [@nostromos](https://github.com/nostromos)
