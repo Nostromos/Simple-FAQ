@@ -1,0 +1,100 @@
+html {
+  font-size: 16px;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1.5rem;
+}
+
+p,
+li {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+a {
+  color: #4e80ee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 100%;
+  background-color: #F8FAFC;
+}
+
+header,
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 50px 0;
+  line-height: 5px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+main {
+  background-color: #f8fafc;
+}
+
+article {
+  width: 800px;
+  /* padding: 30px 20%; */
+}
+
+hr {
+  color: #D2D5DA;
+}
+
+@media screen and (max-width: 640px) {
+  * {
+    width: 100%;
+  }
+
+  hr {
+    margin-left: 15px;
+  }
+
+  article {
+    width: auto;
+    padding: 30px 10px 20px 20px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  * {
+    width: 100%;
+  }
+}
