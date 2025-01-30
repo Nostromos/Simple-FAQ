@@ -18,6 +18,10 @@ a:focus {
   text-decoration: underline;
 }
 
+a:focus {
+  outline: 2px solid #4e80ee;
+}
+
 /* ---------- Headings & Text ---------- */
 /* Consistent font-family for all headings, text, and links */
 h1,
