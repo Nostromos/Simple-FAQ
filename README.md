@@ -32,6 +32,11 @@
 
 ![screenshot](./Solution/images/Screenshot%20-%20Desktop.png)
 
+### How to get it running
+1. Download the project as a ZIP file to your harddrive.
+2. Navigate to the ZIP file and unzip it.
+3. Navigate to the `Solution` folder in the project file and double click `faq.html`.
+
 ### What I learned
 I've become too accustomed to Tailwind and more backend focused projects. This was a good refresher on Semantic HTML and CSS basics, especially @media queries. 
 
@@ -53,8 +58,8 @@ I've become too accustomed to Tailwind and more backend focused projects. This w
 - [x] Use semantic HTML elements to structure the content and improve SEO.
 - [x] Apply CSS styles to enhance the visual presentation of the page.
 - [x] Test the web page on different devices and screen sizes to ensure responsiveness.
-- [ ] Validate the HTML and CSS code to ensure it follows best practices and standards.
-- [ ] Document the code and provide clear instructions on how to run and use the web page.
+- [x] Validate the HTML and CSS code to ensure it follows best practices and standards.
+- [x] Document the code and provide clear instructions on how to run and use the web page.
 - [ ] Deploy the website to make it accessible for everyone.
 
 ## Remaining Fixes & Bugs
