@@ -33,6 +33,12 @@
 ![screenshot](./Solution/images/Screenshot%20-%20Desktop.png)
 
 ### How to get it running
+#### One Liner for Mac & Bash
+```
+curl -L -o main.zip https://github.com/Nostromos/Simple-FAQ/archive/refs/heads/main.zip && unzip main.zip && cd Simple-FAQ-main/Solution && open faq.html
+```
+
+#### Manually
 1. Download the project as a ZIP file to your harddrive.
 2. Navigate to the ZIP file and unzip it.
 3. Navigate to the `Solution` folder in the project file and double click `faq.html`.
