@@ -4,13 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frequently asked questions about tracking orders, returns, and more.">
   <title>Frequently Asked Questions</title>
-  <link rel="stylesheet" href="./faq.css">
+  
+  <!-- Optimized font loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
+
+  <!-- CSS & Styling -->
+  <link rel="stylesheet" href="./faq.css">
 </head>
 
 <body>
@@ -20,22 +25,22 @@
       <p>Browse through the most frequently asked questions</p>
     </div>
   </header>
-  <main>
-    <article class="question">
-      <h2>How can I track my order?</h2>
+  <main role="main">
+    <section aria-labelledby="question1" class="question">
+      <h2 id="question1">How can I track my order?</h2>
       <p>You can track your order using the following steps:</p>
       <ol>
         <li>Go to the Order <a href="./order-tracking.html"
-            aria-label="Go to the order tracking page to check your order status">Tracking page</a>.</li>
+            aria-label="Track your order">Tracking page</a>.</li>
         <li>Enter your order number and email address.</li>
         <li>Click on the Track Order button to view the current status of your shipment.</li>
       </ol>
       <p>If you encounter any issues, please visit our <a href="./help-center.html"
-          aria-label="Go to the help center if you encounter issues.">Help Center</a>.</p>
-    </article>
-    <hr>
-    <article class="question">
-      <h2>What is your return policy?</h2>
+          aria-label="Visit the help center">Help Center</a>.</p>
+    </section>
+    <hr aria-hidden="true">
+    <section aria-labelledby="question2" class="question">
+      <h2 id="question2">What is your return policy?</h2>
       <p>We offer a 30-day return policy on most items. Here are some key points:</p>
       <ul>
         <li><strong>Items must be in original condition:</strong> Unworn, unused, and unwashed.</li>
@@ -44,9 +49,9 @@
         <li><strong>Proof of purchase:</strong> A receipt or proof of purchase is required.</li>
       </ul>
       <p>For more detailed information, read our full <a href="./return-policy.html"
-          aria-label="Visit our return policy page to learn more about what qualifies as a valid return.">Return
+          aria-label="Learn more about return policies">Return
           Policy</a>.</p>
-    </article>
+    </section>
   </main>
 </body>
 

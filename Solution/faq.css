@@ -1,43 +1,73 @@
+/* ---------- Global Styles ---------- */
+/* Set base font size and box-sizing globally for consistency and easy scaling */
 html {
   font-size: 16px;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: semibold;
-  font-size: 2.25rem;
+/* Apply box-sizing to all elements and pseudo-elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-h2 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: semibold;
-  font-size: 1.5rem;
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
+/* ---------- Headings & Text ---------- */
+/* Consistent font-family for all headings, text, and links */
+h1,
+h2,
 p,
 li {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: regular;
-  font-size: 1rem;
-  line-height: 30px;
 }
 
+/* Both headings take on the same font weight */
+h1,
+h2 {
+  font-weight: 600;
+}
+
+/* Large heading for main page title */
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 40px;
+}
+
+/* Medium heading for section titles */
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Standard font size and line height for readable paragraphs and list items */
+p,
+li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  /* 30px converted to rem for consistency */
+}
+
+/* Style links with color and hover effect */
 a {
   color: #4e80ee;
   text-decoration: none;
 }
 
-a:hover {
+/* Underline links on hover and focus for accessibility */
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
+/* ---------- Body and Base Typography ---------- */
+/* Reset margin and padding, set background color and base font styles */
 body {
   margin: 0px;
   padding: 0px;
@@ -54,47 +84,97 @@ main {
   align-items: center;
 }
 
+/* ---------- Header Section ---------- */
+/* Center header content with padding and background color */
 header {
   background-color: #ffffff;
   padding: 50px 0;
-  line-height: 5px;
   text-align: center;
 }
 
-h1 {
-  margin-bottom: 40px;
-}
-
+/* ---------- Main Section ---------- */
+/* Center content and make layout flexible for future enhancements */
 main {
   background-color: #f8fafc;
 }
 
-article {
+/* ---------- Section Section ---------- */
+/* Constrain width and add padding for readability */
+section {
   width: 800px;
-  /* padding: 30px 20%; */
 }
 
+/* ---------- Horizontal Rule ---------- */
+/* Style divider with prescribed color and limit its width */
 hr {
   color: #D2D5DA;
+  width: 75%;
 }
 
+/* ---------- Responsive Design ---------- */
+/* Mobile Screens - Up to 640px */
+/* Adjust padding for better readability on smaller devices */
 @media screen and (max-width: 640px) {
-  * {
-    width: 100%;
-  }
-
-  hr {
-    margin-left: 15px;
-  }
-
-  article {
+  section {
     width: auto;
     padding: 30px 10px 20px 20px;
   }
 }
 
-@media screen and (min-width: 641px) {
-  * {
-    width: 100%;
+/* Tablets - Between 641px and 1024px */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  /* section {
+    max-width: 90%;
+    padding: 25px 5%;
   }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  p,
+  li {
+    font-size: 0.95rem;
+  } */
+}
+
+/* Laptops - Between 1025px and 1280px */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* section {
+    max-width: 80%;
+    padding: 30px 10%;
+  }
+
+  h1 {
+    font-size: 2.125rem;
+  }
+
+  h2 {
+    font-size: 1.4375rem;
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+  } */
+}
+
+/* Large Desktops - 1281px and above */
+@media screen and (min-width: 1281px) {
+  /* section {
+    max-width: 800px;
+    padding: 30px 10%;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  } */
 }
