@@ -66,7 +66,7 @@ I've become too accustomed to Tailwind and more backend focused projects. This w
 - [x] Test the web page on different devices and screen sizes to ensure responsiveness.
 - [x] Validate the HTML and CSS code to ensure it follows best practices and standards.
 - [x] Document the code and provide clear instructions on how to run and use the web page.
-- [ ] Deploy the website to make it accessible for everyone.
+- [x] Deploy the website to make it accessible for everyone.
 
 ## Remaining Fixes & Bugs
 - [ ] Transition between `max-width: 640px;` and any screen width larger is very jumpy. Needs to be smoother. 
