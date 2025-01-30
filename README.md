@@ -23,4 +23,23 @@ You should create a web page that displays frequently asked questions and their 
 - The layout should be clean and visually appealing, with appropriate spacing and typography
 
 ## Tech Stack
+
 For this project, it is recommended to use only HTML and CSS to create the web page. You can use any text editor or integrated development environment (IDE) to write your code. There are no specific requirements for the choice of HTML and CSS frameworks or libraries. It is recommended to use vanilla HTML and CSS for this project, but you can also choose to use popular frameworks like Tailwind CSS if you prefer.
+
+# Progress
+## User Stories
+- [x] Create a simple FAQ page using HTML and CSS.
+- [x] Include a heading that describes the purpose of the page.
+- [x] Add a list of questions, each followed by its corresponding answer.
+- [x] Ensure the links are clickable and navigatable with the tab key.
+- [x] Ensure the layout is clean and visually appealing with appropriate spacing and typography.
+- [x] Use semantic HTML elements to structure the content and improve SEO.
+- [x] Apply CSS styles to enhance the visual presentation of the page.
+- [x] Test the web page on different devices and screen sizes to ensure responsiveness.
+- [ ] Validate the HTML and CSS code to ensure it follows best practices and standards.
+- [ ] Document the code and provide clear instructions on how to run and use the web page.
+- [ ] Deploy the website to make it accessible for everyone.
+
+## Remaining Fixes & Bugs
+- [ ] Transition between `max-width: 640px;` and any screen width larger is very jumpy. Needs to be smoother. 
+- [ ] Rewrite spacing logic to better resemble the original design doc.
